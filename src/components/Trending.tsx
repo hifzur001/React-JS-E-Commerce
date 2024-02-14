@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import Melon from '../images/watermelon-juice.png';
 import Tomatoes from '../images/tomatoes.png';
 import Cucumber from '../images/cucumber.png';
 import TomatoKetchup from '../images/tomatoketchup.png';
@@ -8,7 +7,6 @@ import Munchy from '../images/biscuits.png';
 import Banana from '../images/bananas.png';
 import OrangeJuice from '../images/orange-juice.png';
 import Milk from '../images/milk.png';
-import Raspberries from '../images/Raspberries.png';
 import { motion } from 'framer-motion';
 import { TiStarFullOutline } from 'react-icons/ti';
 import { FaCartShopping } from 'react-icons/fa6';
@@ -29,18 +27,9 @@ const Trending = () => {
 
     const [Products, setProducts] = useState([
         {
-            id: 1,
-            name: 'Watermelon',
-            price: '$18',
-            image: Melon,
-            description: 'This is a product description',
-            units: 1, // You can initialize the units to 0
-            rating: 4.5,
-        },
-        {
             id: 2,
             name: 'Fresh Tomato',
-            price: 10,
+            price: '$50',
             image: Tomatoes,
             description: 'This is a product description',
             units: 0,
@@ -49,7 +38,7 @@ const Trending = () => {
         {
             id: 3,
             name: 'Cucumber',
-            price: 10,
+            price: '$25',
             image: Cucumber,
             description: 'This is a product description',
             units: 0,
@@ -58,7 +47,7 @@ const Trending = () => {
         {
             id: 4,
             name: 'Tomato Ketchup',
-            price: 10,
+            price: '$19',
             image: TomatoKetchup,
             description: 'This is a product description',
             units: 0,
@@ -67,7 +56,7 @@ const Trending = () => {
         {
             id: 5,
             name: 'Avocado',
-            price: 10,
+            price: '$25',
             image: Avacado,
             description: 'This is a product description',
             units: 0,
@@ -76,7 +65,7 @@ const Trending = () => {
         {
             id: 6,
             name: 'Munchy',
-            price: 10,
+            price: '$22',
             image: Munchy,
             description: 'This is a product description',
             units: 0,
@@ -85,7 +74,7 @@ const Trending = () => {
         {
             id: 7,
             name: 'Fresh Banana',
-            price: 10,
+            price: '$50',
             image: Banana,
             description: 'This is a product description',
             units: 0,
@@ -94,7 +83,7 @@ const Trending = () => {
         {
             id: 8,
             name: 'Orange Juice',
-            price: 10,
+            price: '$25',
             image: OrangeJuice,
             description: 'This is a product description',
             units: 0,
@@ -103,21 +92,21 @@ const Trending = () => {
         {
             id: 9,
             name: 'Pear',
-            price: 10,
+            price: '$95',
             image: Milk,
             description: 'This is a product description',
             units: 0,
             rating: 4.1,
         },
-        {
-            id: 10,
-            name: 'Strawberry',
-            price: 10,
-            image: Raspberries,
-            description: 'This is a product description',
-            units: 0,
-            rating: 4.3,
-        },
+        // {
+        //     id: 10,
+        //     name: 'Strawberry',
+        //     price: 10,
+        //     image: Raspberries,
+        //     description: 'This is a product description',
+        //     units: 0,
+        //     rating: 4.3,
+        // },
     ]);
 
     return (

@@ -1,3 +1,4 @@
+import Advertisement from './components/Advertisement';
 import Arrival from './components/Arrival';
 import Category from './components/Category';
 import Hero from './components/Hero';
@@ -12,6 +13,7 @@ const App = () => {
             <Category />
             <Arrival />
             <Trending />
+            <Advertisement />
         </main>
     );
 };
