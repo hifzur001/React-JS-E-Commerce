@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Tomatoes from '../images/tomatoes.png';
-import Cucumber from '../images/cucumber_995209.png';
+import Cucumber from '../images/cucum.png';
 import TomatoKetchup from '../images/tomatoketchup.png';
 import Avacado from '../images/avocado.png';
 import Munchy from '../images/biscuits.png';
